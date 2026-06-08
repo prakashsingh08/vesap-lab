@@ -92,7 +92,7 @@ Full deploy and feed instructions are in docker/README.md.
 
 ---
 ## Endpoints
-
+```
 ┌───────────┬────────────────────────────────────┬────────────────────┐
 │  Service  │                URL                 │      Purpose       │
 ├───────────┼────────────────────────────────────┼────────────────────┤
@@ -107,7 +107,7 @@ Full deploy and feed instructions are in docker/README.md.
 │ Vispana   │ http://localhost:4000              │ Browse schema and  │
 │ UI        │                                    │ documents visually │
 └───────────┴────────────────────────────────────┴────────────────────┘
-
+```
 ---
 ## How to use the learning modules
 
