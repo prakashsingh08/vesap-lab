@@ -26,31 +26,38 @@ A self-contained local learning environment for [Vespa](https://vespa.ai) — th
 
 vespa_lab/
 ├── docker/
-│   ├── docker-compose.yml       # Vespa + Vispana + feed-client containers
-│   ├── .env                     # Port configuration
-│   └── README.md                # Docker setup, endpoints, deploy workflow
+│   ├── docker-compose.yml
+│   ├── .env
+│   └── README.md
 │
 ├── applications/
-│   └── my-app/                  # Vespa application package
+│   └── my-app/
 │       ├── services.xml
 │       └── schemas/
-│           └── article.sd       # Schema evolved progressively across modules
+│           └── article.sd
 │
 ├── feeds/
-│   └── articles.jsonl           # Sample documents for feeding
+│   └── articles.jsonl
 │
 ├── specs/
 │   ├── module-00-search-fundamentals/
-│   │   ├── spec.md              # Concept reference
-│   │   ├── exercises.md         # Hands-on curl-based exercises
-│   │   ├── notes.md             # Fill-in observation log
-│   │   └── tasks.md             # Checklist + gate questions
 │   ├── module-01-vespa-architecture/
-│   └── ... (modules 02–11)
+│   ├── module-02-document-model/
+│   ├── module-03-indexing/
+│   ├── module-04-search/
+│   ├── module-05-bm25/
+│   ├── module-06-ranking/
+│   ├── module-07-attributes/
+│   ├── module-08-grouping/
+│   ├── module-09-tensors/
+│   ├── module-10-vector-search/
+│   └── module-11-hybrid-search/
+│       (each module: spec.md · exercises.md · notes.md · tasks.md)
 │
-├── queries/                     # Saved YQL query examples
-├── scripts/                     # Helper shell scripts
-└── data/                        # Vespa persistent data volume (Docker)
+├── docs/
+├── queries/
+├── scripts/
+└── journal/
 ---
 
 ## Prerequisites
