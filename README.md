@@ -86,11 +86,12 @@ curl -X POST http://localhost:19071/application/v2/tenant/default/prepareandacti
 curl -X POST http://localhost:8080/document/v1/default/article/docid/1 \
   -H "Content-Type: application/json" \
   --data-binary @../../feeds/articles.jsonl
+```
 
 Full deploy and feed instructions are in docker/README.md.
 
 ---
-Endpoints
+## Endpoints
 
 ┌───────────┬────────────────────────────────────┬────────────────────┐
 │  Service  │                URL                 │      Purpose       │
@@ -108,7 +109,7 @@ Endpoints
 └───────────┴────────────────────────────────────┴────────────────────┘
 
 ---
-How to use the learning modules
+## How to use the learning modules
 
 Each module under specs/ contains four files:
 
@@ -120,7 +121,7 @@ Each module under specs/ contains four files:
 Work through modules in order (00 → 11). Each module builds on the schema and concepts established by the previous one.
 
 ---
-Stack
+## Stack
 
 ┌─────────────┬──────────────────────────┬─────────────────────────────┐
 │  Component  │          Image           │            Role             │
@@ -135,4 +136,4 @@ Stack
 │             │                          │  for feeding                │
 └─────────────┴──────────────────────────┴─────────────────────────────┘
 
----
+
