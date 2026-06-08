@@ -56,8 +56,8 @@ vespa_lab/
 ├── scripts/
 └── journal/
 ```
----
 
+---
 ## Prerequisites
 
 - Docker Desktop (macOS/Windows) or Docker Engine (Linux)
@@ -65,7 +65,6 @@ vespa_lab/
 - ~4 GB free RAM for the Vespa container
 
 ---
-
 ## Quick start
 
 ```bash
