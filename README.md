@@ -122,7 +122,7 @@ Work through modules in order (00 → 11). Each module builds on the schema and 
 
 ---
 ## Stack
-
+```
 ┌─────────────┬──────────────────────────┬─────────────────────────────┐
 │  Component  │          Image           │            Role             │
 ├─────────────┼──────────────────────────┼─────────────────────────────┤
@@ -135,5 +135,5 @@ Work through modules in order (00 → 11). Each module builds on the schema and 
 │ feed-client │ python:3.12-slim         │ Utility container with curl │
 │             │                          │  for feeding                │
 └─────────────┴──────────────────────────┴─────────────────────────────┘
-
+```
 
