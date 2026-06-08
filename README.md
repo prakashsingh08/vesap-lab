@@ -24,21 +24,19 @@ A self-contained local learning environment for [Vespa](https://vespa.ai) — th
 ---
 ## Repository layout
 
+```
 vespa_lab/
 ├── docker/
 │   ├── docker-compose.yml
 │   ├── .env
 │   └── README.md
-│
 ├── applications/
 │   └── my-app/
 │       ├── services.xml
 │       └── schemas/
 │           └── article.sd
-│
 ├── feeds/
 │   └── articles.jsonl
-│
 ├── specs/
 │   ├── module-00-search-fundamentals/
 │   ├── module-01-vespa-architecture/
@@ -53,11 +51,11 @@ vespa_lab/
 │   ├── module-10-vector-search/
 │   └── module-11-hybrid-search/
 │       (each module: spec.md · exercises.md · notes.md · tasks.md)
-│
 ├── docs/
 ├── queries/
 ├── scripts/
 └── journal/
+```
 ---
 
 ## Prerequisites
